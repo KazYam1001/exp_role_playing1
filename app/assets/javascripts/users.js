@@ -45,7 +45,7 @@ $(document).on('turbolinks:load', function() {
       data: { keyword: input,
               user_ids: userIds },
     })
-    .done(function(users) {
+    .done(function(data) {
       console.log(users);
       user_list.empty();
       if (users.length !== 0) {
