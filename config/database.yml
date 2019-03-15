@@ -19,4 +19,4 @@ default: &default
 
 development:
   <<: *default
-  database: exp_role_playing1_development
+  database: exp_role_playing_development
