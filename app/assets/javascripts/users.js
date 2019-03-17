@@ -46,7 +46,6 @@ $(document).on('turbolinks:load', function() {
               user_ids: userIds },
     })
     .done(function(data) {
-      console.log(users);
       user_list.empty();
       if (users.length !== 0) {
         users.forEach(function(user) {
